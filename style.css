@@ -1,3 +1,8 @@
+*
+{
+    overflow: auto;
+}
+
 body 
 {
     background-color: #ac9ca7;
@@ -164,11 +169,6 @@ table.preparation td.preparation_etape
 td.preparation_etape
 {
     padding-top: 5px;
-}
-
-*
-{
-    overflow: auto;
 }
 
 div.titre2
