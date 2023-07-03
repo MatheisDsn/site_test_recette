@@ -1,0 +1,177 @@
+body 
+{
+    background-color: #ac9ca7;
+    font-family: Arial;
+    padding: 0;
+    margin: 0;
+}
+div.fond_arriere
+{
+    background-color: #85d69e;
+    margin: 60px 7%;
+    padding: 45px;
+    box-shadow: 0.5px 1px 100px 1px black;
+}
+p.title
+{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    margin-top: 0px;
+    padding: 15px 25px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+div.contenu
+{
+    background-color: #beddcc;
+    padding: 30px;
+}
+div.titre 
+{
+    background-color: #FFFF;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    display: inline-block;
+    z-index: 10;
+    position: relative;
+}
+.img
+{
+    display: inline-block;
+    margin-top: 0px;
+    max-height: 500px;
+    object-fit: cover;
+    min-height: 200px;
+    background-color: rgb(197, 197, 197);
+    z-index: 0;
+    position: relative;
+}
+.center
+{
+    text-align: center;
+    width: 100%;
+}
+div.separateur
+{
+    background-color: black;
+    height: 1px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.categorie
+{   
+    margin-top: 0;
+    margin-bottom: -28px;
+    position: relative;
+    z-index: 1;
+}
+p.soustitre
+{
+    font-style: italic;
+}
+table.infos
+{
+    position: absolute; 
+    bottom: 70px; 
+    width: 100%; 
+    color: white; 
+    background-color: #6C829DC0;
+    height: 65px;
+    padding: 5px;
+}
+div.infos
+{
+    position: relative;
+}
+table.infos td
+{
+    text-align: center;
+    font-size: 15px;
+}
+table.infos th
+{
+    font-size: 16px;
+    vertical-align: top;
+}
+
+div.colonne
+{
+    width: 45%;
+    margin-top: 20px;
+}
+
+div.colonne h2
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 17px;
+    border-bottom: 5px solid #6C829D;
+    padding-bottom: 5px;
+}
+
+div.colonne1
+{
+    display: inline-block;
+    margin-right: 10%;
+}
+
+div.colonne2
+{
+    float: right;
+}
+div.colonne1 p
+{
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 15.5px;
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 3px
+}
+
+table.preparation p.numero
+{
+    margin: 0;
+    background-color: #6C289D;
+    color: white;
+    width: 30px;
+    height: 30px;
+    text-align: center;                
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 6px;
+    box-sizing: border-box;                
+    border-radius: 50%;
+}
+
+table.preparation td
+{
+    vertical-align: top;
+}
+
+table.preparation td.preparation_etape
+{
+    font-size: 17px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+td.preparation_etape
+{
+    padding-top: 5px;
+}
+
+*
+{
+    overflow: auto;
+}
+
+div.titre2
+{
+    margin-top: -70px;
+}
